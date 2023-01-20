@@ -3,7 +3,7 @@ body {
   color: #665544;
   padding: 0 15% 0 15%;
 }
-h1, h2, p {
+h2{
   padding: 12px;
   line-height: 2em;
 }
@@ -19,7 +19,7 @@ p{
   font-style: normal;
   font-size:200%;
 }
-i, a, a:hover, a:visited {
+a, a:hover, a:visited {
   color: #665544;
 }
 i{
