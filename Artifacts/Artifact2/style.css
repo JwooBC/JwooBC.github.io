@@ -62,16 +62,12 @@ a {
 
 #container {
  margin: auto;
- margin-left: 15% ;
-
-
-  
+ margin-left: 15% ;  
 }
 
 body {
  background-image:url("https://i.pinimg.com/originals/a9/d6/be/a9d6be82c27d2bdf7e44ee151d034c61.png");
  background-size: contain;
  background-repeat: no-repeat;
- background-size: 100% 110%;
+ background-size: 100% 120%;
 }
-
