@@ -37,7 +37,7 @@ clear: both;
    margin-top:30px;
    margin-bottom:30px;
    padding: 20px;
-   width:100%;
+   margin: 20px;
    background-color: #6f47cc;
 }
 
@@ -52,7 +52,9 @@ clear: both;
 #container {
  margin-top:10%;
  margin-bottom:10%;
- margin-left:13%;
+ margin-left:10%;
+ margin-right:10%;
+
 }
 img{
   
