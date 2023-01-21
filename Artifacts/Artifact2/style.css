@@ -61,10 +61,9 @@ a {
 }
 
 #container {
- max-width: 800px;
  margin: auto;
- padding-left: 19.5%;
- padding-right: 10%;
+ margin-left: 15% ;
+
 
   
 }
