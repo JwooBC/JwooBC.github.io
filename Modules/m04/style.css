@@ -1,1 +1,64 @@
+* {
+    font-family: 'MuliRegular';
+	color: #323445;
+	text-align: center;
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+	width: 90%;
+	margin: 0 auto;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/002/889/456/original/blooming-flower-colorful-doodle-background-free-vector.jpg");
+    background-size:contain;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+#content {
+	overflow: auto;
+}
+#nav, #feature, #footer {
+	margin: 1%;
+}
+.column1, .column2, .column3 {
+	width: 31.3%;
+	float: left;
+	margin: 1%;
+}
+	
+li {
+	display: inline;
+	padding: 0.5em;
+}
+#nav, #footer {
+	background-color: #efefef;
+	padding: 0.5em 0;
+}
+#feature, .article {
+  height: 10em;
+  margin-bottom: 1em;
+  background-color: #efefef;
+}
 
+#nav {
+   background-color: #ac4dd1; 
+}
+#feature {
+    background-color: #d1cd4d; 
+    background-image: url("https://www.pngmart.com/files/22/Flower-PNG-Transparent.png");
+    background-size:contain;
+    background-position: right;
+    background-repeat:no-repeat;
+}
+.column1 {
+    background-color: #55cf7f; 
+}
+.column2 {
+    background-color: #5565cf; 
+}
+.column3 {
+    background-color: #d14641; 
+	margin-right: 0%;
+}
+#footer {
+     background-color: #d14d7b; 
+}
