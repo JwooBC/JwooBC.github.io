@@ -1,9 +1,9 @@
-var table = prompt("Pick a number from 1 to 10"); // Unit of table
-var i = 1; // Set counter to 1
+var table = prompt("Pick a number from 0 to 10"); // Unit of table
+var i = 0; // Set counter to 1
 var msg = '<h2>Multiplication Table</h2>'; // Message
 
 // Do multiplication
-while (i < 11) {
+while (i <= 10) {
   msg += i + ' x ' + table + ' = ' + (i * table) + '<br />';
   i++;
 }
