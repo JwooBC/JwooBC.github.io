@@ -52,18 +52,17 @@ background: #f1f1f1;
 padding: 10px 20px;
 border-bottom: 1px solid #e1e1e1;
 border-top: 1px solid #e1e1e1;
+text-align: center;
+  
 }
-#topmenu ul { margin: 0; padding: 0; list-style-type: none;} 
-#topmenu li { display: inline; padding: 0 20px 0 0 }
+#topmenu ul { margin: 0; padding: 0; list-style-type: none; } 
+#topmenu li { display: inline; padding: 0 60px 0 0 }
 #topmenu li a { text-decoration: none; }
-}
-
-.search { float: right; }
 
 #menu {
 font-size: 14px;
 float: right; 
-width: 300px; 
+width: 500px; 
 color: #fff;
 margin: 30px 20px 20px 0;
 }
@@ -101,3 +100,12 @@ border-top: 1px solid #1f1f1f;
 .left { float: left; }
 .right { float: right; }
 .clear { clear: both; }
+
+
+.bg {
+  background-image: url("img_gi.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
