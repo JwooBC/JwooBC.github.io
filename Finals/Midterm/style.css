@@ -24,7 +24,6 @@ background: #ffffff;
 }
 
 #header {
-
 background: #3c3c3c;
 padding: 20px 0px 30px 0px;
 }
@@ -42,7 +41,7 @@ border-radius: 10px;
 margin: 0 0 0 20px; 
 padding: 5px 12px;
 font-weight: normal;
-color: #362a5e;
+color: white;
 font-size: 22px;
 letter-spacing: -1px;
 background: #8f83f2;
@@ -65,8 +64,21 @@ text-align: center;
 #content h2 { font-weight: normal; font-size: 22px; line-height: 33px; }
 #content h3 { font-size: 17px; font-weight: normal; }
 #content li a { border-bottom: 1px dotted #362a5e; }
-#footer { 
 
+#form ul { margin: 0; padding: 0; list-style-type: none; }
+#form #name li { display: inline-block; padding: 0 20px 0 0 }
+
+.submitbutton input:hover {  background-color: #776dc7; }
+.submitbutton input {
+  background-color: #8f83f2;
+  border: 5;
+  color: white;
+  padding: 8px 32px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#footer { 
 background: #3f3f3f;
 color: #fff;
 padding: 20px;
