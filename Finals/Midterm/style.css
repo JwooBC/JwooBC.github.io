@@ -14,7 +14,7 @@ background-repeat: no-repeat;
 background-size: fill;
 }
 
-a { color: #362a5e; }
+a { color: #362a5e; text-decoration: none; }
 a:hover { color: #8476b8; }
 
 #wrap { /* Outside border */
@@ -64,7 +64,7 @@ text-align: center;
 #content { float: left; width: 580px; margin: 10px 0 40px 20px;}
 #content h2 { font-weight: normal; font-size: 22px; line-height: 33px; }
 #content h3 { font-size: 17px; font-weight: normal; }
-
+#content li a { border-bottom: 1px dotted #362a5e; }
 #footer { 
 
 background: #3f3f3f;
