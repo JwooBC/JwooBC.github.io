@@ -71,7 +71,7 @@ text-align: center;
 .submitbutton input:hover {  background-color: #776dc7; }
 .submitbutton input {
   background-color: #8f83f2;
-  border: 5;
+  border: 1;
   color: white;
   padding: 8px 32px;
   text-decoration: none;
