@@ -62,12 +62,16 @@ text-align: center;
 
 #content { float: left; width: 580px; margin: 10px 0 40px 20px;}
 #content h2, #content2 h2 { font-weight: normal; font-size: 22px; line-height: 33px; }
-#content h3 { font-size: 17px; font-weight: normal; }
-#content li a, #c2text a { border-bottom: 1px dotted #362a5e; }
+#content h3, #content2 h3 { font-size: 17px; font-weight: normal; }
+#content li a, #content2 a { border-bottom: 1px dotted #362a5e; }
 
 #content2 { float: left; width: 90%; margin: -20px 0px 40px 5%; }
 #c2text { float: left; width: 40%; margin-right: 50px; }
 #c2img { float: left; }
+
+.validation, .html, .css{ float: left; border: 3px; border-style: solid; padding: 10px; margin: 5px; }
+.validation { background-color: #8eb8fa; }
+.html, .css { background-color:#fcf4c2; }
 
 #form ul { margin: 0; padding: 0; list-style-type: none; }
 #form #name li { display: inline-block; padding: 0 20px 0 0 }
