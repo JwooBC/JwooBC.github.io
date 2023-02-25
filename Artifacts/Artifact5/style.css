@@ -7,22 +7,24 @@ body {
     text-align: center;  
 }
 
-button  {
+button {
   border: none;
   background: none;
   position: relative;
   top: -400px;
 }
-#previous{
+#previous {
   float: left;
   left: 5%;
 }
-
-#next{
+#next {
   float: right;
   right: 5%;
 }
-
+button img {  
+max-width: 100px;  
+height: auto;  
+}  
 h2 {
   font-weight: lighter;
 }
