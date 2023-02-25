@@ -7,7 +7,7 @@ var images = [
 ];
 
 
-var imageCaptions =["Jett", "Sage", "Cypher", "Raze", "Phoenix"];
+var imageCaptions =["JETT", "SAGE", "CYPHER", "RAZE", "PHOENIX"];
 var index = 0; 
 
  function updateImage(){
