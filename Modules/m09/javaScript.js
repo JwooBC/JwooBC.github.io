@@ -1,5 +1,5 @@
-var main = document.querySelector("button");
-main.addEventListener("click", function(event) {
+var  mybutton = document.querySelector("button");
+mybutton.addEventListener("click", function(event) {
 
 var element = document.getElementsByTagName("div");
 for (index = element.length - 1; index >= 1; index--) {
