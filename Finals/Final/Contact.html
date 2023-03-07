@@ -30,6 +30,8 @@
 <li><a href="https://jwoobc.github.io/Finals/Final/Validation.html">Validation</a></li>
 </ul>
 </div>
+  
+<script src="/Finals/Final/contactJS.js"></script>
 
 <div id="content">
 <h2>Contact Me </h2>
@@ -39,30 +41,31 @@ Feel free to leave feedback!
   
 <div id="form">
 
-<form action="https://jwoobc.github.io/Finals/Final/TYForm.html" method="get" name="myContact">        
+<form action="https://jwoobc.github.io/Finals/Final/TYForm.html" method="get" name="myContact" onsubmit="return validateForm();">        
 <div id="name">
 <ul>
   <li>
-    <label for='FirstName'>First Name:</label>
+    <label for='FirstName'>First Name*:</label>
     <input type="text" id="FirstName" name="FirstName">
         
-    <div id="errorMessages1"></div>
+    <div id="e1"></div>
   </li><li>
-    <label for='LastName'>Last Name:</label>
+    <label for='LastName'>Last Name*:</label>
     <input type="text" id="LastName" name="LastName"> 
-    <div id="errorMessages2"></div>
+    <div id="e2"></div>
   </li>
 </ul></div>
-    <label for='Email'>Email:</label>
+    <label for='Email'>Email*:</label>
     <input type="text" id="Email" name="Email">
     
-    <div id="errorMessages3"></div>
+    <div id="e3"></div>
        
-    <label for='Comments'>Comments:</label><br>
+    <label for='Comments'>Comments*:</label><br>
     <textarea cols="50" rows="4" id="Comments" name="Comments"></textarea>
     
-    <div id="errorMessages4"></div>
+    <div id="e4"></div>
 
+  <p>* required</p>
   <div class="submitbutton"><input type="submit" name="Submit" value="Submit"></div>
 
 </form>
