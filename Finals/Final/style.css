@@ -60,7 +60,7 @@ text-align: center;
 #topmenu li { display: inline; padding: 0 60px 0 0 }
 #topmenu li a { text-decoration: none; }
 
-#content { float: left; width: 580px; margin: 10px 0 40px 20px;}
+#content { float: left; width: 800px; margin: 10px 0 40px 20px;}
 #content h2, #content2 h2 { font-weight: normal; font-size: 22px; line-height: 33px; }
 #content h3, #content2 h3 { font-size: 17px; font-weight: normal; }
 #content li a, #content2 a { border-bottom: 1px dotted #362a5e; }
