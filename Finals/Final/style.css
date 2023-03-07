@@ -66,8 +66,7 @@ text-align: center;
 #content li a, #content2 a { border-bottom: 1px dotted #362a5e; }
 
 #content2 { float: left; width: 90%; margin: -20px 0px 40px 5%; }
-#c2text { float: left; width: 40%; margin-right: 50px; }
-#c2img { float: left; }
+.artifact, .desc { float: left; width: 70%; margin-right: 50px; }
 
 .validation, .html, .css{ float: left; border: 3px; border-style: solid; padding: 10px; margin: 5px; }
 .validation { background-color: #8eb8fa; }
