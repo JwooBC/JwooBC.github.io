@@ -82,6 +82,10 @@ text-align: center;
   cursor: pointer;
 }
 
+#e1,#e2,#e3,#e4 {
+  color:red;
+}
+
 #footer { 
 background: #3f3f3f;
 color: #fff;
