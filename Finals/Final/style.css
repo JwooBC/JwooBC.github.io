@@ -1,0 +1,100 @@
+@import url(https://fontlibrary.org//face/muli);
+
+body { 
+font-family: 'MuliRegular';
+margin: 0;
+padding: 0; 
+background: #c8c8c8;
+color: #3f3f3f;
+font-size: 16px;
+line-height: 30px;
+  
+background-image: url("https://wallpapercrafter.com/sizes/2560x1440/95116-abstract-dark-black-minimalism-minimalist-hd-4k.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+a { color: #362a5e; text-decoration: none; }
+a:hover { color: #8476b8; }
+
+#wrap { /* Outside border */
+margin: 40px auto;
+width: 1200px;
+background: #ffffff;
+}
+
+#header {
+background: #3c3c3c;
+padding: 20px 0px 30px 0px;
+}
+#header h1 {
+margin: 0;
+padding: 0px 0px 10px 30px;
+font-weight: bold;
+color: #ffffff;
+font-size: 38px;
+line-height: 65px;
+letter-spacing: -1px;
+}
+#header h2 {
+border-radius: 10px;
+margin: 0 0 0 20px; 
+padding: 5px 12px;
+font-weight: normal;
+color: white;
+font-size: 22px;
+letter-spacing: -1px;
+background: #8f83f2;
+border: 1px solid #ffffff;
+display: inline;
+}
+
+#topmenu {
+background: #f1f1f1;
+padding: 10px 20px;
+border-bottom: 1px solid #e1e1e1;
+border-top: 1px solid #e1e1e1;
+text-align: center;
+}
+#topmenu ul { margin: 0; padding: 0; list-style-type: none; } 
+#topmenu li { display: inline; padding: 0 60px 0 0 }
+#topmenu li a { text-decoration: none; }
+
+#content { float: left; width: 580px; margin: 10px 0 40px 20px;}
+#content h2, #content2 h2 { font-weight: normal; font-size: 22px; line-height: 33px; }
+#content h3, #content2 h3 { font-size: 17px; font-weight: normal; }
+#content li a, #content2 a { border-bottom: 1px dotted #362a5e; }
+
+#content2 { float: left; width: 90%; margin: -20px 0px 40px 5%; }
+#c2text { float: left; width: 40%; margin-right: 50px; }
+#c2img { float: left; }
+
+.validation, .html, .css{ float: left; border: 3px; border-style: solid; padding: 10px; margin: 5px; }
+.validation { background-color: #8eb8fa; }
+.html, .css { background-color:#fcf4c2; }
+
+#form ul { margin: 0; padding: 0; list-style-type: none; }
+#form #name li { display: inline-block; padding: 0 20px 0 0 }
+
+.submitbutton input:hover {  background-color: #776dc7; }
+.submitbutton input {
+  background-color: #8f83f2;
+  border-style: solid;
+  color: white;
+  padding: 8px 32px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#footer { 
+background: #3f3f3f;
+color: #fff;
+padding: 20px;
+border-top: 1px solid #1f1f1f;
+}
+#footer a { color: #fff; text-decoration: none; border-bottom: 1px dotted #ffffff; }
+#footer a:hover { border-bottom: 1px dotted #cccccc; }
+
+.left { float: left; }
+.right { float: right; }
+.clear { clear: both; }
