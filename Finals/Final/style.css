@@ -72,9 +72,6 @@ text-align: center;
 .validation { background-color: #8eb8fa; }
 .html, .css { background-color:#fcf4c2; }
 
-#form ul { margin: 0; padding: 0; list-style-type: none; }
-#form #name li { display: inline-block; padding: 0 20px 0 0 }
-
 .submitbutton input:hover {  background-color: #776dc7; }
 .submitbutton input {
   background-color: #8f83f2;
@@ -83,9 +80,6 @@ text-align: center;
   padding: 8px 32px;
   text-decoration: none;
   cursor: pointer;
-}
-#e1,#e2,#e3,#e4 {
-color:red;
 }
 
 #footer { 
