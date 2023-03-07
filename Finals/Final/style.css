@@ -65,7 +65,7 @@ text-align: center;
 #content h3, #content2 h3 { font-size: 17px; font-weight: normal; }
 #content li a, #content2 a { border-bottom: 1px dotted #362a5e; }
 
-#content2 { float: left; width: 90%; margin: -20px 0px 40px 5%; }
+#content2 { float: left; width: 80%; margin: -20px 0px 40px 5%; }
 .artifact, .desc { float: left; width: 70%; margin-right: 50px; }
 
 .validation, .html, .css{ float: left; border: 3px; border-style: solid; padding: 10px; margin: 5px; }
