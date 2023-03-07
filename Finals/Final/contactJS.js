@@ -2,6 +2,7 @@ function validateForm(){
   var FirstName = document.getElementById("FirstName").value;
   var LastName = document.getElementById("LastName").value;
   var Email = document.getElementById("Email").value;
+  var Comments = document.getElementById("Comments").value;
 
   const errorMessages = [];
   for (let i = 0; i < 4; i++) {
@@ -13,7 +14,7 @@ function validateForm(){
     document.getElementById("e1").innerHTML = "First name is required.";
   } 
   else {
-    if(letters.test(FirstName) === false){
+    if(letters.test(FirstName) === false || FirstName.length <= 1){
       document.getElementById("e1").innerHTML = "Please enter a valid first name.";
     } 
     else {
@@ -26,7 +27,7 @@ function validateForm(){
     document.getElementById("e2").innerHTML = "Last name is required.";
   } 
   else {
-    if(letters.test(LastName) === false) {
+    if(letters.test(LastName) === false || LastName.length <= 1) {
       document.getElementById("e2").innerHTML = "Please enter a valid last name.";
     } 
     else {
@@ -49,7 +50,7 @@ function validateForm(){
       errorMessages[2] = false;
     }
   }
-  if (Comments === "" || Email === "null") {
+  if (Comments === "" || Comments === "null") {
     document.getElementById("e4").innerHTML = "Feedback is required.";
   }
   else {
