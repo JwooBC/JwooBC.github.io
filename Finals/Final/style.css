@@ -63,7 +63,7 @@ text-align: center;
 #content { float: left; width: 800px; margin: 10px 0 40px 20px;}
 #content h2, #content2 h2 { font-weight: normal; font-size: 22px; line-height: 33px; }
 #content h3, #content2 h3 { font-size: 17px; font-weight: normal; }
-#content li a, #content a, #content2 a { border-bottom: 1px dotted #362a5e; }
+#content a, #content2 a { border-bottom: 1px dotted #362a5e; }
 
 #content2 { float: left; width: 90%; margin: -20px 0px 40px 5%; }
 .artifact, .desc { float: left; width: 100%; margin-right: 50px; }
